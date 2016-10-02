@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+.row {
+	width: 100%;
+}
+h1 {
+	text-align: center;
+	margin: 30px 0px 40px 0px;
+}
+section {
+	height: 100%;
+	position: relative;
+	background-color: grey;
+	box-sizing: border-box;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 40px 10px 10px 10px;
+
+}
+div .title {
+	position: absolute;
+    height: 26px;
+    width: 130px;
+    background-color: white;
+    right: 0px;
+    top: 0px;
+    padding: 1px;
+    text-align: center;
+    border: 1px solid black;
+}
+div .chicken {
+	background-color: pink; 
+}
+div .beef {
+	background-color: red;
+	color: white;
+}
+div .sushi {
+	background-color: yellow;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+.col-lg-4 {
+	float: left;
+	width: 32%;
+}
+
+}
+
+/* Tablet */
+@media (min-width: 768px and max-width: 991px) {
+.col-md-6, .col-md-12 {
+	float: left;
+	border: 1px solid green;	
+}
+.col-md-6 {
+	width: 50%;
+}
+.col-md-12 {
+	width: 100%;
+}
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+.col-sm-12 {
+	float: left;
+	border: 1px solid green;
+	width: 100%;
+}
+}
